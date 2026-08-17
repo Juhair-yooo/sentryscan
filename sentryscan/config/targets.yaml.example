@@ -1,0 +1,18 @@
+# Copy this file to targets.yaml and fill in real targets.
+# Nothing runs unless authorized: true is set for that exact host.
+
+targets:
+  - host: scanme.nmap.org
+    type: practice
+    authorized: true
+    note: "Public nmap test target - always OK to scan per nmap.org policy"
+
+  - host: 192.168.56.101
+    type: lab
+    authorized: true
+    note: "Example: local Metasploitable2 VM"
+
+  - host: app.example-client.com
+    type: company
+    authorized: false
+    note: "Example: flip to authorized: true only once you have signed-off scope"
