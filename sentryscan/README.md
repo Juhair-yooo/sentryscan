@@ -1,4 +1,4 @@
-# SentryScan
+# SentryScan(Juhair)
 
 Automated vulnerability discovery pipeline for Kali Linux. Wraps `nmap`, `gobuster`,
 `nikto`, `sqlmap`, and `searchsploit` into one pipeline, with a built-in authorization
